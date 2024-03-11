@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio 1 Lukas Wolff</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <h1 id="nombre">Lukas Wolff Casanova</h1>
+    <p class="info">Ingeniero Civil en Obras Civiles</p>
+    <p class="info">Entre a la universidad el 2021</p>
+    <a class="link" href="https://github.com/LukasWolff2002/LukasWolff2002.GitHub.io.git">
+        Link a pagina de Git Hub
+    </a>
+    <p class="info-2">Actualmente tengo 21 años, estudioingenieria civil en obras
+        civiles con mencion en computacion en la universidad de los andes, trabajo
+        como creador de contenido para specialized chile y compito cross country olimpio
+        tanto la modalidad olimpica como maraton 
+    </p>
+
+    <table class="tabla">
+        <col class="fondo"></col>
+        <tr>
+            <td style="background-color: rgb(159, 159, 159);">Skill</td>
+            <td style="background-color: rgb(159, 159, 159);">Level</td>
+        </tr>
+        
+        <tr>
+            <td >Python</td>
+            <td class="ma">Medio-Alto</td>
+        </tr>
+        <tr>
+            <td>JavaScript</td>
+            <td class="mb">Medio-Bajo</td>
+        </tr>
+        <tr>
+            <td>HTML/CSS</td>
+            <td class="b">Bajo</td>
+        </tr>
+        <tr>
+            <td>Git</td>
+            <td class="m">Medio</td>
+        </tr>
+        <tr>
+            <td>Excel</td>
+            <td class="ma">Medio-Alto</td>
+        </tr>
+        <tr>
+            <td>SQL</td>
+            <td class="m">Medio</td>
+        </tr>
+        <tr>
+            <td>Ruby</td>
+            <td class="n">Nulo</td>
+        </tr>
+        <tr>
+            <td>English</td>
+            <td class="ma">Medio-Alto</td>
+        </tr>
+        <tr>
+            <td>Spanish</td>
+            <td class="a">Alto</td>
+        </tr>
+    </table>
+
+    <p id="frase">Frase a cambiar</p>
+    
+    <button class="boton" onclick="modificarcolor()">Boton</button>
+    <input type="text" id="input"></input>
+    <script>
+        function modificarcolor(){
+            var informacion = document.getElementById("input").value;
+            var fraseModificada = informacion
+            document.getElementById("frase").innerText = fraseModificada;
+        }
+    </script>
+    
+    
+
+</body>
+</html>

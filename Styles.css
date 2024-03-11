@@ -1,0 +1,55 @@
+.info{
+    font-family: 'Arial';
+    color: blue;
+}
+
+.link{
+    font-family: cursive;
+    color: red;
+}
+
+.info-2{
+    font-family: serif;
+}
+
+/*Para modificar la tabla*/
+.tabla{
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: 3px solid purple;
+}
+
+.fondo{
+    background-color: rgb(129, 233, 198);
+}
+
+.a{
+    background-color: yellow;
+}
+
+.ma{
+    background-color: rgb(255, 191, 0);
+} 
+
+.m{
+    background-color: rgb(255, 162, 0);
+}
+
+.mb{
+    background-color: orangered;
+}
+
+.b{
+    background-color: rgb(255, 47, 0);
+}
+
+.n{
+    background-color: red;
+}
+
+/*Para modificar el boton*/
+.boton{
+    margin-top: 10px;
+}
+
+
